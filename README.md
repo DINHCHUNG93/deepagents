@@ -1,3 +1,15 @@
+Deep Agents - bước tiến lớn cho AI agent làm việc kiểu Claude Code🔥
+
+
+LangChain đã chia sẻ Deep Agents - một framework dành cho các agent xử lý nhiệm vụ dài, nhiều bước và phức tạp, với các thành phần như lập kế hoạch, quản lý context, filesystem, subagents và memory được tích hợp sẵn. 
+
+Đây là một công cụ “ready-to-run” để bạn không phải tự lắp ghép toàn bộ prompt, tools và context management từ đầu.
+
+Điểm đáng chú ý là Deep Agents không khóa bạn vào một model hay một nhà cung cấp duy nhất. Tài liệu tùy biến của LangChain cho thấy bạn có thể cấu hình model, tools, subagents, memory, filesystem backend và human-in-the-loop theo nhu cầu riêng. Nói dễ hiểu: bạn có thể mang tư duy “agent làm việc sâu” này sang nhiều model khác nhau, thay vì chỉ dùng trong một hệ sinh thái đóng.
+
+
+
+
 # 🚀🧠 Deep Agents
 
 Agents can increasingly tackle long-horizon tasks, [with agent task length doubling every 7 months](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)! But, long horizon tasks often span dozens of tool calls, which present cost and reliability challenges. Popular agents such as [Claude Code](https://code.claude.com/docs) and [Manus](https://www.youtube.com/watch?v=6_BcCthVvb8) use some common principles to address these challenges, including **planning** (prior to task execution), **computer access** (giving the agent access to a shell and a filesystem), and **sub-agent delegation** (isolated task execution). `deepagents` is a simple agent harness that implements these tools, but is open source and easily extendable with your own custom tools and instructions.
